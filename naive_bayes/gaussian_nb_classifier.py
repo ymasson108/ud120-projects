@@ -12,6 +12,7 @@ def classify(features_train, labels_train):
     return clf
 
 def NBAccuracy(features_train, labels_train, features_test, labels_test):
+    
     ### create and train classifier
     clf = classify(features_train, labels_train)
     
